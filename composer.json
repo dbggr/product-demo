@@ -1,0 +1,20 @@
+{
+    "name": "dbggr/product-data",
+    "description": "Validate and submit data to database",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "respect/validation": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Paul",
+            "email": "paul@mylocalhost.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ProgramData\\": "src/"
+        }
+    }
+}
